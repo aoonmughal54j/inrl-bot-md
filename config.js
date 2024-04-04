@@ -20,8 +20,8 @@ module.exports = {
     PM_BLOCK : toBool(process.env.PM_BLOCK || "false"),
     BGMBOT : toBool(process.env.BGMBOT || "false"),
     CALL_BLOCK : toBool(process.env.CALL_BLOCK || "false"),
-    STATUS_VIEW : process.env.STATUS_VIEW || "false",
-    SAVE_STATUS : toBool(process.env.SAVE_STATUS || "false"),
+    STATUS_VIEW : process.env.STATUS_VIEW || "true",
+    SAVE_STATUS : toBool(process.env.SAVE_STATUS || "true"),
     ADMIN_SUDO_ACCESS: toBool(process.env.ADMIN_SUDO_ACCESS || "false"),
     DISABLE_PM: toBool(process.env.DISABLE_PM || "false"),
     DISABLE_GRP : toBool(process.env.DISABLE_GRP || "false"),
@@ -29,16 +29,16 @@ module.exports = {
     AJOIN: toBool(process.env.AJOIN || 'false'),
     READ : process.env.READ ||  "false",//true, command
     CHATBOT : process.env.CHATBOT || "false",//true, pm, group
-    REACT : process.env.REACT || "false",//true, command, emoji
+    REACT : process.env.REACT || "true",//true, command, emoji
     WARNCOUND : process.env.WARNCOUND || 5,
-    BOT_INFO : process.env.BOT_INFO || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
+    BOT_INFO : process.env.BOT_INFO || "https://telegra.ph/file/0102e91af561f16f180ad.jpg",
     WORKTYPE : process.env.WORKTYPE || "private",
     PREFIX : process.env.PREFIX || "[.,!]",//both  .  and [.] equal, for multi prefix we use [] this
     LANG : process.env.LANG || "en",
     PERSONAL_MESSAGE: process.env.PERSONAL_MESSAGE || "null",
     BOT_PRESENCE : process.env.BOT_PRESENCE || "unavailable",
     AUDIO_DATA : process.env.AUDIO_DATA || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
-    STICKER_DATA : process.env.STICKER_DATA || "inrl;inrl",
+    STICKER_DATA : process.env.STICKER_DATA || "｡^‿^｡Ａ Ｎ Ａ Ｙ Ａ｡^‿^｡ ",
     BRAINSHOP: process.env.BRAINSHOP || '172372,nbjE0YAlyw3cpoMl',
     SUDO : process.env.SUDO || "null",
     RMBG_KEY: process.env.RMBG_KEY,
